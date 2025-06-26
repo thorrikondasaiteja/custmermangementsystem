@@ -28,10 +28,7 @@ public class Customercontroller {
 	@Autowired
 	CustomerRepository customerRepository;
 //	
-//	@GetMapping("/findbyid/{cid}")
-//    public Optional<Customer> Getcusbyid(@PathVariable("cid") int cid) throws ResourceNotFoundexception){
-//        return customerRepository.findById(cid);
-//    }@DeleteMapping("/delet/{cid}")
+//
 
 	
 	@DeleteMapping("delete/{cid}")
